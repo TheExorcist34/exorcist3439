@@ -20,7 +20,7 @@
     }
   ],
   "main": "src/index.ts",
-  "name": "deeplx",
+  "name": "exorcist3439",
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,
