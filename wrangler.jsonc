@@ -22,7 +22,19 @@
   "main": "src/index.ts",
   "name": "exorcist3439",
   "observability": {
-    "enabled": false
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true
+    }
   },
   "placement": {
     "mode": "smart"
@@ -34,5 +46,5 @@
     "DEBUG_MODE": "false",
     "PROXY_URLS": "https://0.xdpl.xixu.dpdns.org/jsonrpc,https://1.xdpl.xixu.dpdns.org/jsonrpc,https://2.xdpl.xixu.dpdns.org/jsonrpc,https://3.xdpl.xixu.dpdns.org/jsonrpc,https://4.xdpl.xixu.dpdns.org/jsonrpc,https://5.xdpl.xixu.dpdns.org/jsonrpc,https://6.xdpl.xixu.dpdns.org/jsonrpc,https://7.xdpl.xixu.dpdns.org/jsonrpc,https://8.xdpl.xixu.dpdns.org/jsonrpc,https://9.xdpl.xixu.dpdns.org/jsonrpc"
   },
-  "workers_dev": true
+  "workers_dev": false
 }
