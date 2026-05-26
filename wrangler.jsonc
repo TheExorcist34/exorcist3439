@@ -44,7 +44,7 @@
   },
   "vars": {
     "DEBUG_MODE": "false",
-    "PROXY_URLS": "https://oneshot-free.www.deepl.com/v1/translate"
+    "PROXY_URLS": "https://0.xdpl.xixu.dpdns.org/jsonrpc,https://1.xdpl.xixu.dpdns.org/jsonrpc,https://2.xdpl.xixu.dpdns.org/jsonrpc,https://3.xdpl.xixu.dpdns.org/jsonrpc,https://4.xdpl.xixu.dpdns.org/jsonrpc,https://5.xdpl.xixu.dpdns.org/jsonrpc"
   },
   "workers_dev": true
 }
